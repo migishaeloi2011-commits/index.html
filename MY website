@@ -43,7 +43,7 @@
 <label for="intermediate">Intermediate</label>
 <input type="radio" id="intermediate" name="source" value="intermediate">
 <label for="advanced">Advanced</label>
-<input type="radio" id="intermediate" name="source" value="advanced">
+<input type="radio" id="advanced" name="source" value="advanced">
 </section>
 <section>
 <h3>What do you want to learn?</h3>
