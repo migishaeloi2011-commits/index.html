@@ -6,11 +6,11 @@
 <body> 
 <h1>Journey To Web Development</h1>
 <p>This is my first website, and I am writing as practice</p>
-<h2>How I learneed html</h2> 
+<h2>How I learned HTML</h2> 
 <p>When learning html I used different websites to learn as listed below</p>
 <ul>
-<li>Freecodecamp</li> 
-<li>Chatgpt</li>
+<li>freeCodeCamp</li> 
+<li>ChatGPT</li>
 </ul>
 <h3>What I want to achieve in web development</h3>
 <ol>
@@ -28,14 +28,34 @@
 <input type="text" id="name" name="name" required></div>
 <br><br>
 <div><label for="email">Email</label>
-<input type="text" id="email" name="email" required></div>
+<input type="email" id="email" name="email" required></div>
 <br><br>
 <div><label for="password">Password</label>
-<input type="text" id="password" name="password"></div>
+<input type="password" id="password" name="password" required></div>
 <br><br>
 <div><label for="message">Message</label>
 <textarea id="message" name="message"></textarea></div>
 <br><br>
+<section>
+<h3>What is your experience level?</h3>
+<label for="beginner">Beginner</label>
+<input type="radio" id="beginner" name="source" value="beginner" checked>
+<label for="intermediate">Intermediate</label>
+<input type="radio" id="intermediate" name="source" value="intermediate">
+<label for="advanced">Advanced</label>
+<input type="radio" id="intermediate" name="source" value="advanced">
+</section>
+<section>
+<h3>What do you want to learn?</h3>
+<label for="html">HTML</label>
+<input type="checkbox" id="html" name="technology" value="html">
+<label for="css">CSS</label>
+<input type="checkbox" id="css" name="technology" value="css">
+<label for="javascript">JavaScript</label>
+<input type="checkbox" id="javascript" name="technology" value="javascript">
+<label for="php">PHP</label>
+<input type="checkbox" id="php" name="technology" value="php">
+</section>
 <div><button type="submit">Submit Form</button></div>
 </form>
 </section>
