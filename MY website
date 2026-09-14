@@ -36,7 +36,7 @@
 <div><label for="message">Message</label>
 <textarea id="message" name="message"></textarea></div>
 <br><br>
-<button type="submit">Submit Form</button>
+<div><button type="submit">Submit Form</button></div>
 </form>
 </section>
 </body> 
