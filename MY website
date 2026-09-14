@@ -57,6 +57,16 @@
 <input type="checkbox" id="php" name="technology" value="php">
 </section>
 <div><button type="submit">Submit Form</button></div>
+<label for="country">
+<Select id="country" name="country">
+<input id="country" name="country">
+<option value=">--Choose your country--<"</option>
+<option value="kenya">Kenya</option>
+<option value="rwanda">Rwanda</option>
+<option value="ethiopia">Ethiopia</option>
+<option value="any other">Any Other</option>
+</select>
+</label>
 </form>
 </section>
 </body> 
