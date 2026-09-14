@@ -39,11 +39,11 @@
 <section>
 <h3>What is your experience level?</h3>
 <label for="beginner">Beginner</label>
-<input type="radio" id="beginner" name="source" value="beginner" checked>
+<input type="radio" id="beginner" name="experience" value="beginner" checked>
 <label for="intermediate">Intermediate</label>
-<input type="radio" id="intermediate" name="source" value="intermediate">
+<input type="radio" id="intermediate" name="experience" value="intermediate">
 <label for="advanced">Advanced</label>
-<input type="radio" id="advanced" name="source" value="advanced">
+<input type="radio" id="advanced" name="experience" value="advanced">
 </section>
 <section>
 <h3>What do you want to learn?</h3>
