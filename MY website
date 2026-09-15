@@ -7,9 +7,9 @@
 <header>
 <h1>Journey To Web Development</h1>
 </header>
+<main> 
 <p>This is my first website, and I am writing as practice</p>
 <section>
-<main> 
 <h2>How I learned HTML</h2> 
 <p>When learning html I used different websites to learn as listed below</p>
 <ul>
