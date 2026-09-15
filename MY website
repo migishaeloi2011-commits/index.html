@@ -9,6 +9,7 @@
 </header>
 <p>This is my first website, and I am writing as practice</p>
 <section>
+<main> 
 <h2>How I learned HTML</h2> 
 <p>When learning html I used different websites to learn as listed below</p>
 <ul>
@@ -16,7 +17,6 @@
 <li>ChatGPT</li>
 </ul>
 </section> 
-<main> 
 <section> 
 <h3>What I want to achieve in web development</h3>
 <ol>
@@ -28,9 +28,8 @@
 <p>For more information<a href="https://www.freecodecamp.org/learn">Visit site</a></p>  
 <p>For guidance<button>Contact Me</button></p> 
 </section>
-</main>
 <section>
-<h3>My Current Progress</h3>
+<h2>My Current Progress</h2>
 <table>
 <tr>
 <th>Technology</th>
@@ -57,8 +56,9 @@
 
 <tr>
 <td>PHP</td>
-<td>Beginnner</td>
+<td>Beginner</td>
 <td>Not started</td>
+</tr>
 </table>
 </section>
 <br><br>
@@ -99,8 +99,8 @@
 
 <section>
 <label for="favorite-language">Favorite Programming Language</label>
-<select id="favorite-language" name="favorite-language">
-<option value="">--Choose your favorite-language--</option>
+<select id="favorite-language" name="favorite-language" required>
+<option value="">--Choose your favorite language--</option>
 <option value="c++">C++</option>
 <option value="javascript">JavaScript</option>
 <option value="java">Java</option>
@@ -112,18 +112,19 @@
 <br><br>
 <section>
 <label for="practice-hours">Practice Hours Per Week</label>
-<select id="practice-hours" name="practice-hours">
-<option value="">--Choose your practice-hours--</option>
+<select id="practice-hours" name="practice-hours" required>
+<option value="">--Choose your practice hours--</option>
 <option value="less-than-5 hours">Less than 5 Hours</option>
-<option value="5-10 ">5-10 Hours</option>
-<option value="10-20 ">10-20 Hours</option>
-<option value="more-than-20  required">More Than 20 Hours</option>
+<option value="5-10">5-10 Hours</option>
+<option value="10-20">10-20 Hours</option>
+<option value="more-than-20">More Than 20 Hours</option>
 <option value="other">Other</option>
 </select>
 </section>
 <div><button type="submit">Submit Form</button></div>
 </form>
 </section>
+</main>
 <footer>©2026 my website</footer>
 </body> 
 </html>
